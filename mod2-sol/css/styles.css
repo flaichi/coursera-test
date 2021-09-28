@@ -1,1 +1,152 @@
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
 
+}
+
+body {
+  font-size: 24px;
+}
+h1 {
+  margin-top: 10%;
+  margin-bottom: 25px;
+  font-size: 1.50em;
+}
+
+/********** title box sections **********/
+#t1 {
+    background-color: #E9967A;
+    font-family: algerian, courier;
+    margin-top: -20px;
+    margin-right: -20px;
+    font-size: 1.25em;
+
+}
+#t2 {
+    background-color: #FF7F50;
+    font-family: algerian, courier;
+    margin-top: -20px;
+    margin-right: -20px;
+    font-size: 1.25em;
+}
+#t3 {
+
+    background-color: yellow;
+    font-family: algerian, courier;
+    margin-top: -20px;
+    margin-right: -20px;
+    font-size: 1.25em;
+}
+span {
+  float: right;
+  width: 100px;
+  border: 1px solid black;
+  text-align: center;
+  padding: 1px 5px 1px 5px;
+}
+
+/********** Box setup section as p **********/
+p  {
+  position: relative;
+  border: 1px solid black;
+  background-color: grey;
+  width: 90%;
+  height: 50%;
+  margin-top: 10px;
+  margin-left: 15px;
+  color: black;
+  padding: 20px;
+  font-size: .75em;
+}
+
+/* Simple Responsive Framework. */
+.row {
+  width: 100%;
+}
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+  .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+    float: left;
+  }
+  .col-lg-1 {
+    width: 8.33%;
+  }
+  .col-lg-2 {
+    width: 16.66%;
+  }
+  .col-lg-3 {
+    width: 25%;
+  }
+  .col-lg-4 {
+    width: 33.33%;
+  }
+  .col-lg-5 {
+    width: 41.66%;
+  }
+  .col-lg-6 {
+    width: 50%;
+  }
+  .col-lg-7 {
+    width: 58.33%;
+  }
+  .col-lg-8 {
+    width: 66.66%;
+  }
+  .col-lg-9 {
+    width: 74.99%;
+  }
+  .col-lg-10 {
+    width: 83.33%;
+  }
+  .col-lg-11 {
+    width: 91.66%;
+  }
+  .col-lg-12 {
+    width: 100%;
+  }
+}
+
+/********** Medium devices only **********/
+@media (min-width: 950px) and (max-width: 1199px) {
+  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+    float: left;
+  }
+  .col-md-1 {
+    width: 8.33%;
+  }
+  .col-md-2 {
+    width: 16.66%;
+  }
+  .col-md-3 {
+    width: 25%;
+  }
+  .col-md-4 {
+    width: 33.33%;
+  }
+  .col-md-5 {
+    width: 41.66%;
+  }
+  .col-md-6 {
+    width: 50%;
+  }
+  .col-md-7 {
+    width: 58.33%;
+  }
+  .col-md-8 {
+    width: 66.66%;
+  }
+  .col-md-9 {
+    width: 74.99%;
+  }
+  .col-md-10 {
+    width: 83.33%;
+  }
+  .col-md-11 {
+    width: 91.66%;
+  }
+  .col-md-12 {
+    width: 100%;
+  }
+}
+/********** for mobile responsive: no need for CSS  here **********/
