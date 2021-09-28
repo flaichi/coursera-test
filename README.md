@@ -1,2 +1,2 @@
-# coursert-est
+# coursert-test
 test repo
